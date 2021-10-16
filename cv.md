@@ -53,6 +53,19 @@ ________________
 __________________
 
 
+# Languages:
+
+
+*  **Russian** (*Native*)
+
+
+*  **English** (*A2*), I try to constantly devote time to English, improve my level and develop my conversational level. 
+
+
+_________________
+
+
+
 
 
 
