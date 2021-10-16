@@ -59,7 +59,7 @@ _______________
 
 # Apex:
 
-``````
+````
 public class CampingListController {
     @auraenabled
     public static List<Camping_Item__c> getItems (){
@@ -72,6 +72,8 @@ public class CampingListController {
         return item;
     }
 }
+
+
 `````
 
 
