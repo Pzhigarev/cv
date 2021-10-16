@@ -77,35 +77,51 @@ public class CampingListController {
 
 _______________
 
+
+
+
 # JavaScript:
 
 `````
-    // user blok
-        let userName = 'Pavel';
-        let password = '12345';
-        let newUser;
-        let newPassword;
-        let chek1 = 1;
+// user blok
+let userName = 'Pavel';
+let password = '12345';
+let newUser;
+let newPassword;
+let chek1 = 1;
         
-        document.querySelector("#a-button").onclick = function(){
-        // for userName
-        do{
-        newUser = prompt('введите логин :','Введите логин');
-        if (newUser == null) clouse;
-        } while (newUser !== userName);
-        // for Password
-        do{
-        newPassword = prompt('Введите пароль','Введите пароль');
-        if (newPassword == null) clouse;
-        else if (newPassword == password)
-        chek1 = alert('Добрый день');
-        }while(newPassword !== password);
-        }
+document.querySelector("#a-button").onclick = function(){
+// for userName
+do{
+newUser = prompt('введите логин :','Введите логин');
+if (newUser == null) clouse;
+} while (newUser !== userName);
+// for Password
+do{
+newPassword = prompt('Введите пароль','Введите пароль');
+if (newPassword == null) clouse;
+else if (newPassword == password)
+chek1 = alert('Добрый день');
+}while(newPassword !== password);
+}
+
 ``````
 
 _______________
 
+
+
 # Swift:
+
+````
+var array: [Int] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+ 
+var newArray = array.filter({$0 % 3==0})
+print(newArray) 
+
+````
+
+____________
 
 
 
