@@ -8,4 +8,4 @@ __________________
 # Contacts:
 
 
-- [Email](p.zhigarev703@mail.ru "rr")
+- [Email](https://e.mail.ru/inbox/ "rr")
