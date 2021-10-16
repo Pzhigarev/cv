@@ -1,7 +1,7 @@
-# Code example:
+# Code example
 _______________
 
-# PHP
+# PHP:
 
 `````
 <?php 
@@ -56,6 +56,56 @@ _______________
 ``````
 _______________
 
+
+# Apex:
+
+``````
+public class CampingListController {
+    @auraenabled
+    public static List<Camping_Item__c> getItems (){
+        List<Camping_Item__c> CI = [select id, name,price__c,Quantity__c,Packed__c from Camping_Item__c ];
+        return CI;
+    }
+    @auraenabled
+    public static Camping_Item__c saveItem (Camping_Item__c item){
+        insert item;
+        return item;
+    }
+}
+`````
+
+
+_______________
+
+# JavaScript:
+
+`````
+    // user blok
+        let userName = 'Pavel';
+        let password = '12345';
+        let newUser;
+        let newPassword;
+        let chek1 = 1;
+        
+        document.querySelector("#a-button").onclick = function(){
+        // for userName
+        do{
+        newUser = prompt('введите логин :','Введите логин');
+        if (newUser == null) clouse;
+        } while (newUser !== userName);
+        // for Password
+        do{
+        newPassword = prompt('Введите пароль','Введите пароль');
+        if (newPassword == null) clouse;
+        else if (newPassword == password)
+        chek1 = alert('Добрый день');
+        }while(newPassword !== password);
+        }
+``````
+
+_______________
+
+# Swift:
 
 
 
