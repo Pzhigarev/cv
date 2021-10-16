@@ -14,7 +14,7 @@ __________________
 - **Number:** +375(44)703-13-32
 
 
-- **Telegram:** @zhigarevv
+- **[Telegram](http://t.me/zhigarevv "Telegram")**
 
 
 - **[Linkedin](http://linkedin.com/in/pavel-zhyharau-599173214 "linkedin")**
@@ -38,5 +38,21 @@ ____________________
 
 
 ________________
+
+
+# Skills:
+
+*  **Python** (Basic)
+*  **JavaScript** (Confident basic)
+*  **PHP** (Basic)
+*  **Git, GitHub** (Confident basic)
+*  **HTML/CSS** (Confident basic)
+*  **SQL** (Confident basic)
+
+
+__________________
+
+
+
 
 
