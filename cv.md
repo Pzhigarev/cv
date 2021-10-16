@@ -107,6 +107,20 @@ _________________
 ___________________
 
 
+# Conclusion:
+
+**I want to say that this direction is insanely interesting to me, there is a great desire to study, work and develop in this direction.**
+
+
+**I also think that I am sufficiently trained and, most importantly (in my opinion), I am ready to learn on my own.**
+
+
+**If you are suddenly interested in my candidacy, I will try not to disappoint you.**
+
+
+**Thanks for attention.**
+
+
 
 
 
