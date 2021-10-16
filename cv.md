@@ -66,6 +66,47 @@ _________________
 
 
 
+# Previous place of work:
+
+
+**Previously worked in the MVD as an assistant attendant. My duties included:**
+
+*  **Working with documentation** 
+
+
+*  **Working with a computer**
+
+
+*  **Working with databases**
+
+
+*  **Working with citizens**
+
+
+**Skills acquired at a previous job:**
+
+
+*  **Responsibility**
+
+
+*  **Perseverance**
+
+
+*  **Stress resistance** 
+
+
+*  **Performance**
+
+
+*  **Attention to detail**
+
+
+*  **Sociability**
+
+
+___________________
+
+
 
 
 
