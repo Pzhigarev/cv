@@ -1,0 +1,558 @@
+<head>
+    <meta charset="UTF-8" />
+    <title>Pavel Zhigarev</title>
+    <style>
+        body {
+            background-repeat: initial;
+            background-attachment: fixed;
+            background:rgb(12, 12, 12) url(1.jpg);
+            background-size: 100%;
+        }
+        h1 {
+            position: absolute;
+            top: 10px;
+            left: 250px;
+            font-family: inherit;
+            font: 40px courier; 
+            color: #ffffff;/* Цвет текста */
+            border: #000;
+            text-shadow: rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2);
+        }
+        img {
+            position: relative;
+            top: 20px;
+            left: 20px;
+            border-radius: 150px; /* Радиус скругления */
+            border: 3px solid rgb(232, 235, 232); /* Параметры рамки */
+            box-shadow: 0 0 7px #666;
+        }
+        h3{
+            position: relative;
+            top: 20px;
+            left: 53px;
+            font-family: inherit;
+            font: 20px courier; 
+            color: #ffffff;/* Цвет текста */
+            border: #000;
+            text-shadow: rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2);
+        }
+        pre{
+            position: relative;
+            top: 10px;
+            left: 5px;
+            font: 20px courier; 
+            color: #ffffff;/* Цвет текста */
+            border: #000;
+            text-shadow: rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2);
+        }
+        .skills{
+            position:absolute;
+            top: 900px;
+            left: 50px;
+            font: 40px courier; 
+            color: #ffffff;/* Цвет текста */
+            border: #000;
+            text-shadow: rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2);
+        }
+        .mySkills{
+            position:absolute;
+            top: 1000px;
+            left: 50px;
+            font: 30px courier; 
+            color: #ffffff;/* Цвет текста */
+            border: #000;
+            text-shadow: rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2);
+        }
+        .Lang{
+            position:absolute;
+            top: 1700px;
+            left: 50px;
+            font: 40px courier; 
+            color: #ffffff;/* Цвет текста */
+            border: #000;
+            text-shadow: rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2);
+        }
+        .myLang{
+            position:absolute;
+            top: 1800px;
+            left: 50px;
+            font: 40px courier; 
+            color: #ffffff;/* Цвет текста */
+            border: #000;
+            text-shadow: rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2);
+        }
+        .work{
+            position:absolute;
+            top: 2550px;
+            left: 50px;
+            font: 40px courier; 
+            color: #ffffff;/* Цвет текста */
+            border: #000;
+            text-shadow: rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2);
+        }
+        .lastwork{
+            position:absolute;
+            top: 2650px;
+            left: 50px;
+            font: 30px courier; 
+            color: #ffffff;/* Цвет текста */
+            border: #000;
+            text-shadow: rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2);
+        }
+        .mylastWork{
+            position:absolute;
+            top: 2750px;
+            left: 50px;
+            font: 20px courier; 
+            color: #ffffff;/* Цвет текста */
+            border: #000;
+            text-shadow: rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2);
+        }
+        .workSkills{
+            position: absolute;
+            top: 2870px;
+            right: 50px;
+            font: 30px courier; 
+            color: #ffffff;/* Цвет текста */
+            border: #000;
+            text-shadow: rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2);
+        }
+        .myWorkSkills{
+            position: absolute;
+            top: 2920px;
+            left: 50px;
+            font: 20px courier; 
+            color: #ffffff;/* Цвет текста */
+            border: #000;
+            text-shadow: rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2);
+        }
+        .end{
+            position: absolute;
+            top: 3300px;
+            left: 50px;
+            font: 40px courier; 
+            color: #ffffff;/* Цвет текста */
+            border: #000;
+            text-shadow: rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2);
+        }
+        .myend{
+            position: absolute;
+            top: 3400px;
+            left: 50px;
+            font: 20px courier; 
+            color: #ffffff;/* Цвет текста */
+            border: #000;
+            text-shadow: rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2);
+        }
+        h2{
+            position: absolute;
+            top: 3650px;
+            left: 50px;
+            font: 40px courier; 
+            color: #ffffff;/* Цвет текста */
+            border: #000;
+            text-shadow: rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2);
+        }
+        .Telegram{
+            position: absolute;
+            top: 3660px;
+            left: 750px;
+            font: 30px courier; 
+            color: #ffffff;/* Цвет текста */
+            border: #000;
+            text-shadow: rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2);
+        }
+        .num{
+            position: absolute;
+            top: 3650px;
+            left: 610px;
+            font: 20px courier; 
+            color: #ffffff;/* Цвет текста */
+            border: #000;
+            text-shadow: rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2);
+        }
+        .linkidin{
+            position: absolute;
+            top: 3660px;
+            left: 240px;
+            font: 20px courier; 
+            color: #ffffff;/* Цвет текста */
+            border: #000;
+            text-shadow: rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2);
+        }
+        .mail{
+            position: absolute;
+            top: 3660px;
+            left: 430px;
+            font: 20px courier; 
+            color: #ffffff;/* Цвет текста */
+            border: #000;
+            text-shadow: rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2), rgb(2, 2, 2);
+        }
+        .button1{
+            position: absolute;
+            top: 60px;
+            left: 750px;
+            min-width: 100px; /* размер в пикселях */
+            font-family: inherit;
+            appearance: none; /* отключение стандартной стилистики кнопки */
+            border: 10; /* обводка кнопки */
+            border-radius: 5px; /* Скругление кнопки */
+            background:#4b4b4b; /* фон (цвет) кнопки */
+            color:rgb(255, 255, 255); /* Цвет текста кнопки */
+            padding: 8px 16px; /* Высота и ширина кнопки в пикселях */
+            font-size: 1.5rem; /* Размер текста на кнопке */
+            cursor: pointer; /* Изменение курсора при наведении на кнопку */
+            }
+            .button1:hover {
+            background-color: #5f5f5f; /* Цвет кнопки при наведении на нее */
+        }
+        .button2{
+            position: absolute;
+            top: 60px;
+            left: 880px;
+            min-width: 100px; /* размер в пикселях */
+            font-family: inherit;
+            appearance: none; /* отключение стандартной стилистики кнопки */
+            border: 10; /* обводка кнопки */
+            border-radius: 5px; /* Скругление кнопки */
+            background:#4b4b4b; /* фон (цвет) кнопки */
+            color:rgb(255, 255, 255); /* Цвет текста кнопки */
+            padding: 8px 16px; /* Высота и ширина кнопки в пикселях */
+            font-size: 1.5rem; /* Размер текста на кнопке */
+            cursor: pointer; /* Изменение курсора при наведении на кнопку */
+            }
+            .button2:hover {
+            background-color: #5f5f5f; /* Цвет кнопки при наведении на нее */
+        }
+        .button3{
+            position: absolute;
+            top: 60px;
+            left: 1050px;
+            min-width: 100px; /* размер в пикселях */
+            font-family: inherit;
+            appearance: none; /* отключение стандартной стилистики кнопки */
+            border: 10; /* обводка кнопки */
+            border-radius: 5px; /* Скругление кнопки */
+            background:#4b4b4b; /* фон (цвет) кнопки */
+            color:rgb(255, 255, 255); /* Цвет текста кнопки */
+            padding: 8px 16px; /* Высота и ширина кнопки в пикселях */
+            font-size: 1.5rem; /* Размер текста на кнопке */
+            cursor: pointer; /* Изменение курсора при наведении на кнопку */
+            }
+            .button3:hover {
+            background-color: #5f5f5f; /* Цвет кнопки при наведении на нее */
+        }
+        .button4{
+            position: absolute;
+            top: 60px;
+            left: 1250px;
+            min-width: 100px; /* размер в пикселях */
+            font-family: inherit;
+            appearance: none; /* отключение стандартной стилистики кнопки */
+            border: 10; /* обводка кнопки */
+            border-radius: 5px; /* Скругление кнопки */
+            background:#4b4b4b; /* фон (цвет) кнопки */
+            color:rgb(255, 255, 255); /* Цвет текста кнопки */
+            padding: 8px 16px; /* Высота и ширина кнопки в пикселях */
+            font-size: 1.5rem; /* Размер текста на кнопке */
+            cursor: pointer; /* Изменение курсора при наведении на кнопку */
+            }
+            .button4:hover {
+            background-color: #5f5f5f; /* Цвет кнопки при наведении на нее */
+        }
+
+        .button5{
+            position: absolute;
+            top: 950px;
+            left: 750px;
+            min-width: 100px; /* размер в пикселях */
+            font-family: inherit;
+            appearance: none; /* отключение стандартной стилистики кнопки */
+            border: 10; /* обводка кнопки */
+            border-radius: 5px; /* Скругление кнопки */
+            background:#4b4b4b; /* фон (цвет) кнопки */
+            color:rgb(255, 255, 255); /* Цвет текста кнопки */
+            padding: 8px 16px; /* Высота и ширина кнопки в пикселях */
+            font-size: 1.5rem; /* Размер текста на кнопке */
+            cursor: pointer; /* Изменение курсора при наведении на кнопку */
+            }
+            .button5:hover {
+            background-color: #5f5f5f; /* Цвет кнопки при наведении на нее */
+        }
+        .button6{
+            position: absolute;
+            top: 950px;
+            left: 880px;
+            min-width: 100px; /* размер в пикселях */
+            font-family: inherit;
+            appearance: none; /* отключение стандартной стилистики кнопки */
+            border: 10; /* обводка кнопки */
+            border-radius: 5px; /* Скругление кнопки */
+            background:#4b4b4b; /* фон (цвет) кнопки */
+            color:rgb(255, 255, 255); /* Цвет текста кнопки */
+            padding: 8px 16px; /* Высота и ширина кнопки в пикселях */
+            font-size: 1.5rem; /* Размер текста на кнопке */
+            cursor: pointer; /* Изменение курсора при наведении на кнопку */
+            }
+            .button6:hover {
+            background-color: #5f5f5f; /* Цвет кнопки при наведении на нее */
+        }
+        .button7{
+            position: absolute;
+            top: 950px;
+            left: 1050px;
+            min-width: 100px; /* размер в пикселях */
+            font-family: inherit;
+            appearance: none; /* отключение стандартной стилистики кнопки */
+            border: 10; /* обводка кнопки */
+            border-radius: 5px; /* Скругление кнопки */
+            background:#4b4b4b; /* фон (цвет) кнопки */
+            color:rgb(255, 255, 255); /* Цвет текста кнопки */
+            padding: 8px 16px; /* Высота и ширина кнопки в пикселях */
+            font-size: 1.5rem; /* Размер текста на кнопке */
+            cursor: pointer; /* Изменение курсора при наведении на кнопку */
+            }
+            .button7:hover {
+            background-color: #5f5f5f; /* Цвет кнопки при наведении на нее */
+        }
+        .button8{
+            position: absolute;
+            top: 950px;
+            left: 1250px;
+            min-width: 100px; /* размер в пикселях */
+            font-family: inherit;
+            appearance: none; /* отключение стандартной стилистики кнопки */
+            border: 10; /* обводка кнопки */
+            border-radius: 5px; /* Скругление кнопки */
+            background:#4b4b4b; /* фон (цвет) кнопки */
+            color:rgb(255, 255, 255); /* Цвет текста кнопки */
+            padding: 8px 16px; /* Высота и ширина кнопки в пикселях */
+            font-size: 1.5rem; /* Размер текста на кнопке */
+            cursor: pointer; /* Изменение курсора при наведении на кнопку */
+            }
+            .button8:hover {
+            background-color: #5f5f5f; /* Цвет кнопки при наведении на нее */
+        }
+
+        .button9{
+            position: absolute;
+            top: 1750px;
+            left: 750px;
+            min-width: 100px; /* размер в пикселях */
+            font-family: inherit;
+            appearance: none; /* отключение стандартной стилистики кнопки */
+            border: 10; /* обводка кнопки */
+            border-radius: 5px; /* Скругление кнопки */
+            background:#4b4b4b; /* фон (цвет) кнопки */
+            color:rgb(255, 255, 255); /* Цвет текста кнопки */
+            padding: 8px 16px; /* Высота и ширина кнопки в пикселях */
+            font-size: 1.5rem; /* Размер текста на кнопке */
+            cursor: pointer; /* Изменение курсора при наведении на кнопку */
+            }
+            .button9:hover {
+            background-color: #5f5f5f; /* Цвет кнопки при наведении на нее */
+        }
+        .button10{
+            position: absolute;
+            top: 1750px;
+            left: 880px;
+            min-width: 100px; /* размер в пикселях */
+            font-family: inherit;
+            appearance: none; /* отключение стандартной стилистики кнопки */
+            border: 10; /* обводка кнопки */
+            border-radius: 5px; /* Скругление кнопки */
+            background:#4b4b4b; /* фон (цвет) кнопки */
+            color:rgb(255, 255, 255); /* Цвет текста кнопки */
+            padding: 8px 16px; /* Высота и ширина кнопки в пикселях */
+            font-size: 1.5rem; /* Размер текста на кнопке */
+            cursor: pointer; /* Изменение курсора при наведении на кнопку */
+            }
+            .button10:hover {
+            background-color: #5f5f5f; /* Цвет кнопки при наведении на нее */
+        }
+        .button11{
+            position: absolute;
+            top: 1750px;
+            left: 1050px;
+            min-width: 100px; /* размер в пикселях */
+            font-family: inherit;
+            appearance: none; /* отключение стандартной стилистики кнопки */
+            border: 10; /* обводка кнопки */
+            border-radius: 5px; /* Скругление кнопки */
+            background:#4b4b4b; /* фон (цвет) кнопки */
+            color:rgb(255, 255, 255); /* Цвет текста кнопки */
+            padding: 8px 16px; /* Высота и ширина кнопки в пикселях */
+            font-size: 1.5rem; /* Размер текста на кнопке */
+            cursor: pointer; /* Изменение курсора при наведении на кнопку */
+            }
+            .button11:hover {
+            background-color: #5f5f5f; /* Цвет кнопки при наведении на нее */
+        }
+        .button12{
+            position: absolute;
+            top: 1750px;
+            left: 1250px;
+            min-width: 100px; /* размер в пикселях */
+            font-family: inherit;
+            appearance: none; /* отключение стандартной стилистики кнопки */
+            border: 10; /* обводка кнопки */
+            border-radius: 5px; /* Скругление кнопки */
+            background:#4b4b4b; /* фон (цвет) кнопки */
+            color:rgb(255, 255, 255); /* Цвет текста кнопки */
+            padding: 8px 16px; /* Высота и ширина кнопки в пикселях */
+            font-size: 1.5rem; /* Размер текста на кнопке */
+            cursor: pointer; /* Изменение курсора при наведении на кнопку */
+            }
+            .button12:hover {
+            background-color: #5f5f5f; /* Цвет кнопки при наведении на нее */
+        }
+
+        .button13{
+            position: absolute;
+            top: 3350px;
+            left: 1250px;
+            min-width: 100px; /* размер в пикселях */
+            font-family: inherit;
+            appearance: none; /* отключение стандартной стилистики кнопки */
+            border: 10; /* обводка кнопки */
+            border-radius: 5px; /* Скругление кнопки */
+            background:#4b4b4b; /* фон (цвет) кнопки */
+            color:rgb(255, 255, 255); /* Цвет текста кнопки */
+            padding: 8px 16px; /* Высота и ширина кнопки в пикселях */
+            font-size: 1.5rem; /* Размер текста на кнопке */
+            cursor: pointer; /* Изменение курсора при наведении на кнопку */
+            }
+            .button13:hover {
+            background-color: #5f5f5f; /* Цвет кнопки при наведении на нее */
+        }
+
+        .button14{
+            position: absolute;
+            top: 2650px;
+            left: 1250px;
+            min-width: 100px; /* размер в пикселях */
+            font-family: inherit;
+            appearance: none; /* отключение стандартной стилистики кнопки */
+            border: 10; /* обводка кнопки */
+            border-radius: 5px; /* Скругление кнопки */
+            background:#4b4b4b; /* фон (цвет) кнопки */
+            color:rgb(255, 255, 255); /* Цвет текста кнопки */
+            padding: 8px 16px; /* Высота и ширина кнопки в пикселях */
+            font-size: 1.5rem; /* Размер текста на кнопке */
+            cursor: pointer; /* Изменение курсора при наведении на кнопку */
+            }
+            .button14:hover {
+            background-color: #5f5f5f; /* Цвет кнопки при наведении на нее */
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <img src="https://sun9-49.userapi.com/impg/3GRem-Hmf_5TJwjMZpSYzhItoTSQEMxG7eXwQw/of4kNgj7MjU.jpg?size=960x1280&quality=96&sign=2e9d8e46acde99f6eb71339fc8e9dd0a&type=album"
+width="200" height="260">
+<h1 id="5">Zhigarev Pavel
+    <hr>
+    Belarus, Minsk
+    <br>
+    <br>
+    Beginner developer
+</h1>
+
+<h3>About me:</h3>
+<pre>
+    I am a beginner developer. 
+    This time I tried myself in many areas, ranging from contextual advertising, 
+    where he became acquainted with the setting of advertising in Google and Yandex offices, 
+    selection of key words and main supporting web services to develop applications.
+    I have no commercial experience, but I have knowledge and understanding in each of the areas that I have tried.
+    At the moment I am a 4th year student at BNTU (in absentia), 
+    and I am learning new things in development every day.
+    I also took preparatory courses on software testing from "SkillUp", 
+    intensive software testing from "Snoopgame" and other webinars on the topic of Software Testing.
+    I study development on my own, according to sources on the Internet. 
+    I also took a course on JS from rsschool and a course on salesforce development from Jetbi.
+</pre>
+
+<h3 class="skills" id="1">Skills:</h3>
+
+    <ul class="mySkills">
+        <li>Python (basic)</li>
+        <li>JavaScript (Confident basic)</li>
+        <li>PHP (basic)</li>
+        <li>Git, GitHub (confident basic)</li>
+        <li>HTML/CSS (confident basic)</li>
+        <li>SQL (confident basic)</li>
+    </ul>
+
+    <h3 class="Lang" id="2">Languages:</h3>
+    <ul class="myLang">
+        <li>Russian (Native)</li>
+        <li>English (A2), I try to constantly devote time to English, improve my level and develop my conversational level.</li>
+    </ul>
+
+    <h3 class="work" id="3">Previous place of work:</h3>
+    <p class="lastwork">Previously worked in the MVD as an assistant attendant. 
+    <br>My duties included:</p>
+    <ul class="mylastWork">
+        <li>Working with documentation</li>
+        <li>Working with a computer</li>
+        <li>Working with databases</li>
+        <li>Working with citizens </li>
+    </ul>
+
+    <h3 class="workSkills">Skills acquired at a previous job:</h3>
+    <ul class="myWorkSkills">
+        <li>Responsibility</li>
+        <li>Perseverance</li>
+        <li>Stress resistance</li>
+        <li>Performance</li>
+        <li>Attention to detail</li>
+        <li>Sociability</li>
+    </ul>
+
+    <h3 class="end">Conclusion:</h3>
+    <p class="myend">I want to say that this direction is insanely interesting to me, there is a great desire to study,
+        <br>
+        work and develop in this direction.
+       <br>
+       I also think that I am sufficiently trained and, most importantly (in my opinion), I am ready to learn on my own.
+       <br>
+       If you are suddenly interested in my candidacy, I will try not to disappoint you.
+       <br>
+       Thanks for attention.
+       </p>
+       <h2 id="4">Contact:</h2>
+       <a class="mail" href="https://e.mail.ru/messages/inbox/?back=1">
+        <img src="https://sun9-70.userapi.com/impg/gqxhgBio8IS03vMgcj2yBbhPFXMM0yymFc2I3g/LkjvCwcHacA.jpg?size=166x69&quality=96&sign=7d9817d0fcd51659e520ffc192810361&type=album" width="100" height="50" />
+    </a>
+       <a class="num" href="http://t.me/zhigarevv">
+           <img src="https://sun9-2.userapi.com/impg/VlvIKAfHPEJkttz5QDwgnG1-G2aqtW37Qieluw/oYM62hQTCts.jpg?size=168x167&quality=96&sign=90fbee3008dbe90f375d66d677dc8a2c&type=album" width="70" height="70" />
+        </a>
+       <a class="linkidin" href="http://linkedin.com/in/pavel-zhyharau-599173214">
+        <img src="https://sun9-28.userapi.com/impg/fQKYSSPAc3kgTVToU2FKnVgDMwJo_-Tk3WhQ_Q/PzFW681hEu4.jpg?size=192x59&quality=96&sign=829e54bf1b30ae3f9077511731ac1464&type=album" width="120" height="50" />
+        </a>
+        <p class="Telegram">Number: +375(44) 703-13-32</p>
+       
+        <a href="#1"><button class="button1">Skills</button></a>
+        <a href="#2"><button class="button2">Languages</button></a>
+        <a href="#3"><button class="button3">Previous work</button></a>
+        <a href="#4"><button class="button4">Contact</button></a>
+
+        <a href="#5"><button class="button5">Home</button></a>
+        <a href="#2"><button class="button6">Languages</button></a>
+        <a href="#3"><button class="button7">Previous work</button></a>
+        <a href="#4"><button class="button8">Contact</button></a>
+
+        <a href="#1"><button class="button9">Skills</button></a>
+        <a href="#5"><button class="button10">Home</button></a>
+        <a href="#3"><button class="button11">Previous work</button></a>
+        <a href="#4"><button class="button12">Contact</button></a>
+
+        <a href="#5"><button class="button13">Home</button></a>
+
+        <a href="#4"><button class="button14">Contact</button></a>
+</body>
+
